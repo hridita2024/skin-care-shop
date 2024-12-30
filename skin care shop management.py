@@ -140,9 +140,3 @@ while True:
     else:
         continue
 
-f=open("D:/New folder/data01.txt","w")
-for x in item_dict:
-    f.write(x+"\n")
-    f.write(str(item_dict[x][0])+"\n")
-    f.write(str(item_dict[x][1])+"\n")
-f.close()
